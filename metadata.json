@@ -1,0 +1,6 @@
+{
+  "name": "PS5 Game Rentals",
+  "description": "Premium PS5 games available for rent starting at just 999. Easy game selection, flexible rental periods, and direct WhatsApp booking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
