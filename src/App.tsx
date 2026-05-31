@@ -241,14 +241,14 @@ export default function App() {
                 New Launch Season &bull; Rent 1 Month Start ₹800
               </div>
 
-              <h1 className="font-display text-4xl sm:text-5xl md:text-7xl font-extrabold leading-[0.95] text-white tracking-tighter col-span-1">
-                ULTIMATE <br />
-                <span className="text-indigo-500 bg-gradient-to-r from-indigo-400 to-indigo-600 bg-clip-text text-transparent">PLAYSTATION</span> <br />
-                RENTALS
+              <h1 className="font-display text-4xl sm:text-5xl md:text-6xl font-extrabold leading-[0.95] text-white tracking-tighter col-span-1">
+                PREMIUM <br />
+                <span className="text-primary bg-gradient-to-r from-primary-glow to-primary bg-clip-text text-transparent">PS5, PS4 & PC</span> <br />
+                GAME RENTALS
               </h1>
 
               <p className="text-sm md:text-base text-slate-400 leading-relaxed max-w-xl">
-                Experience the next generation of gaming without the high costs. Rent any blockbuster PS5 title 1 month account starting from just <span className="text-white font-bold text-xl">₹800</span>. Zero deposit, instant credentials.
+                Experience the next generation of gaming without the high costs. Rent any blockbuster PS5, PS4, or PC title for 1 month starting from just <span className="text-white font-bold text-xl">₹800</span>. Zero deposit, instant credentials.
               </p>
 
               <div className="flex flex-wrap gap-4 pt-1 text-xs">
