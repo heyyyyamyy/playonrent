@@ -232,7 +232,30 @@ export default function App() {
           <div className="absolute top-0 right-0 w-96 h-96 bg-indigo-600/10 rounded-full blur-3xl pointer-events-none" />
           <div className="absolute bottom-0 left-0 w-80 h-80 bg-indigo-500/5 rounded-full blur-3xl pointer-events-none" />
 
-          <div className="relative grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+          {/* PS5 3D Background Element */}
+          <motion.div
+            animate={{ 
+              y: [-15, 15, -15], 
+              rotateZ: [-2, 2, -2],
+              rotateX: [5, -5, 5],
+              rotateY: [-5, 5, -5]
+            }}
+            transition={{ 
+              duration: 8, 
+              repeat: Infinity, 
+              ease: "easeInOut" 
+            }}
+            className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[300px] h-[300px] lg:w-[800px] lg:h-[800px] opacity-[0.25] lg:opacity-[0.15] pointer-events-none z-0"
+            style={{ perspective: "1000px" }}
+          >
+            <img 
+              src="https://images.unsplash.com/photo-1622297845775-5ff3fef71d13?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" 
+              alt="" 
+              className="w-full h-full object-contain mix-blend-screen [mask-image:radial-gradient(ellipse_at_center,black_40%,transparent_70%)] select-none opacity-50"
+            />
+          </motion.div>
+
+          <div className="relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
             
             {/* Left informational pack */}
             <div className="lg:col-span-7 space-y-6">
